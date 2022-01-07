@@ -1,0 +1,123 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.body{
+    width: 670px;
+    height: 960px;
+    background: #FFFFFF;
+    border: 1px solid #AACDFF;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+    border-radius: 20px;
+}
+
+.loginform{
+    /* padding: 0 50px; */
+}
+
+.name{
+    width: 466px;
+    height: 94px;
+    left: 725px;
+    top: 132px;
+    font-size: 32px;
+    line-height: 47px;
+    color: #0068FF;
+    /* padding: 30px 50px 0 ; */
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.emailForm{
+    /* padding: 0 50px; */
+    color: #797979;
+    font-size: 14px;
+    border-bottom: 2px solid #0068FF;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}
+
+.email{
+    width: 500px;
+    border: 1px solid #0068FF;
+    border:none;
+    outline:none;
+    margin-bottom: 10px;
+}
+
+.idForm{
+    /* padding: 0 50px; */
+    color: #797979;
+    font-size: 14px;
+    border-bottom: 2px solid #0068FF;
+    margin: 80px;
+}
+
+.id{
+    width: 500px;
+    border: 1px solid #0068FF;
+    border:none;
+    outline:none;
+    margin-bottom: 10px;
+}
+
+.pwForm{
+    /* padding: 0 50px; */
+    color: #797979;
+    font-size: 14px;
+    border-bottom: 2px solid #0068FF;
+    margin: 80px;
+}
+
+.pwForm2{
+    color: #797979;
+    font-size: 14px;
+    border-bottom: 2px solid #0068FF;
+    /* margin: 80px; */
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.pw{
+    width: 500px;
+    border: 1px solid #0068FF;
+    border:none;
+    outline:none;
+    margin-bottom: 10px;
+}
+
+
+.pb{
+    width: 140px;
+    height: 23.94px;
+    font-size: 20px;
+    /* left: 890px; */
+    /* top: 719px;  */
+    margin-left: 250px;   
+}
+
+.check{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 75px;
+}
+
+.button {
+    background: #FFFFFF;
+    border: 1px solid #0068FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 470px;
+    height: 75px;
+    left: 725px;
+    top: 875px;
+    margin-left: 100px;
+    margin-top: 20px;
+}

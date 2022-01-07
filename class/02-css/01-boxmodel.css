@@ -1,0 +1,15 @@
+div{
+
+}
+
+.pb{
+    width: 500px;
+    height: 320px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 회원가입 페이지 예쁘게 만들기 */

@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.background{
+    background-image: url("../images/background.png");
+    width: 1024px;
+    height: 600px;
+    /* background-color: red; */
+    padding: 20px 0px 0px 20px;
+}
+
+.outerbox{
+    background-image: url("../images/outerbox.png");
+    width: 808px;
+    height: 544px;
+    /* background-color: blue; */
+}
+
+.wrapper{
+ display: flex;
+ flex-direction: row;
+ padding: 32px 0px 0px 32px;
+}
+
+
+/*왼쪽 레이아웃*/
+
+.wrapper__left{
+    width: 208px;
+    height: 450px;
+    /* padding: 8px; */
+    /* background-color: royalblue; 
+    패딩 이용해서 길이 줄이기*/
+    
+}
+
+
+.wrapper__left__header{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    /* position: absolute; */
+    top: 66px;
+    font-size: 9px;
+    color : #55B2D4;
+    /* text-align: right; */
+    /* background-color: white; */
+}
+
+.wrapper__left__body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px 30px 0px 30px;
+    border-radius: 10px;
+    
+}
+
+
+.left__body__header{
+    width: 100%;
+
+}
+
+.left__body__header__gray{
+    width: 148px;
+    height: 133px;
+    background-color: #C4C4C4   ;
+}
+
+.left__body__header__line{ 
+    border-top: 1px dotted black;
+    margin-top: 12px;
+    /* flex사용해서 정렬 */
+}
+
+.left__body__profile{
+    /* position: absolute; */
+    /* width: 65px;
+    height: 72px; */
+    /* left: 82px;
+    top: 265px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    font-size: 11px;
+    margin-top: 12px;
+}
+
+.left__body__footer{
+    position: absolute;
+    width: 141px;
+    height: 41px;
+    top: 456px;
+    font-size: 11px;
+
+}
+
+.select{
+    margin-top: 10px;
+    top: 479px;
+
+}
+
+.today {
+    padding-top: 10px;
+    font-size: 9px;
+}
+
+.zero {
+    color: red;
+    font-size: 11px;
+}
+
+.count {
+    font-size: 11px;
+}
+
+
+.fas {
+    color: black;
+    margin-right: 10px;
+    width: 5px;
+    height: 5px;
+}
+
+.body__footer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrapper__feel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.feel__title {
+    font-size: 11px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+/* 오른쪽 영역 */
+
+.wrapper__right {
+    width: 524px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-left: 5px;
+}
+
+
+.wrapper__right__header{
+    width: 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right__header__title, .right__header__setting{
+    color: #55B2D4;
+}
+
+.right__header__setting{
+    font-size: 8px;
+}
+
+.wrapper__right__body{
+    width: 510px;
+    height: 445px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.navigation{
+    width: 62px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: space-between;
+    left: 774px;
+    top: 110px;
+}
+
+.navigation__item{
+    width: 60px;
+    height: 30px;
+    background-color: #298EB5;
+    border: 1px solid black;
+    color: white;
+    font-size: 10px;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}

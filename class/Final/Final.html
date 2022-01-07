@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원 가입</title>
+    <link href="./Final.css" rel="stylesheet">
+    <script src="./Final.js"></script>
+</head>
+<body class="body">
+    <form class="loginform">
+        <h2 class="name"> 코드캠프 회원가입</h2>
+        
+        <div class="emailForm">
+            <input id="email" type="text" class="email" placeholder="이메일을 입력해 주세요" oninput="checkValidation()">
+        </div>
+        
+        <div class="idForm">
+            <input id="name" type="text" class="id" placeholder="이름을 입력해 주세요" oninput="checkValidation()">
+        </div> 
+        
+        <div class="pwForm">
+            <input id="password1" type="password" class="pw1" placeholder="비밀번호를 입력해 주세요" oninput="checkValidation()">
+        </div>
+        
+        <div class="pwForm2">
+            <input id="password2" type="password" class="pw2" placeholder="비밀번호를 다시 입력해 주세요" oninput="checkValidation()">
+        </div>
+
+        <div class="phonenumber">
+            <input id="phone1" class="phone1" type="text" oninput="changeFocus1()" maxlength="3"> -
+            <input id="phone2" class="phone2" type="text" oninput="changeFocus2()" maxlength="4"> -
+            <input id="phone3" class="phone3" type="text" maxlength="4">
+        </div>
+        
+        <div class="auth">
+            <div class="authnumberbox">
+                <div class="authnumber" id="auth">000000</div>
+                <button class="authbutton" disabled="true" onclick="pressedBtn()">인증번호 전송</button>
+            </div>
+            <div class="sec">
+                <div class="time" id="time">3:00</div>
+                <button class="finish" id="finish" disabled="true" >인증완료</button>
+            </div>
+            
+        </div>
+        
+       
+        <select class="area">
+            <option disabled="true" selected>지역을 선택하세요</option>
+            <option>서울</option>
+            <option>인천</option>
+            <option>경기</option>
+        </select>
+
+
+        <dev class="pb">
+            <input type="radio" name="gender"> 여성
+            <input type="radio" name="gender"> 남성
+        </dev>
+        <br><br>
+        
+        <hr color=#E6E6E6>
+        <button id="submit" disabled="true" class="button" onclick="join()">가입하기</button>
+    </form>
+</body>
+</html>
